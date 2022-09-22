@@ -4,7 +4,6 @@ import com.softwaredesign.softwaredesign.entity.Group;
 import com.softwaredesign.softwaredesign.entity.Teacher;
 import com.softwaredesign.softwaredesign.repository.TeacherRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import java.util.List;
@@ -20,6 +19,10 @@ public class TeacherController {
                 .firstName(firstName)
                 .lastName(lastName)
                 .build();
+        teacherRepository.save(teacher);
+    }
+
+    public void addTeacher(Teacher teacher) {
         teacherRepository.save(teacher);
     }
 
@@ -47,5 +50,9 @@ public class TeacherController {
 
     public void deleteTeacher(Long id) {
         teacherRepository.deleteById(id);
+    }
+
+    public void deleteTeacher(Teacher teacher) {
+        teacherRepository.delete(teacher);
     }
 }

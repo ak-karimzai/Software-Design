@@ -31,5 +31,5 @@ public class User {
     private Long userId;
     private String login;
     private String password;
-    private LEVEL accessLevel;
+    private String accessLevel;
 }

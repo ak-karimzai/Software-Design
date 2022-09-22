@@ -12,12 +12,29 @@ import java.util.List;
 public class GroupController {
     private GroupRepository groupRepository;
 
+    public void addGroup(String name,
+                         Integer numberOfStudents) {
+        Group group = Group.builder()
+                .name(name)
+                .numberOfStudents(numberOfStudents)
+                .build();
+        groupRepository.save(group);
+    }
+
+    public void addGroup(Group group) {
+        groupRepository.save(group);
+    }
+
     public Group getGroup(Long id) {
         return groupRepository.getGroupsByGroupId(id);
     }
 
     public void deleteGroup(Group group) {
         groupRepository.delete(group);
+    }
+
+    public void deleteGroup(Long id) {
+        groupRepository.deleteById(id);
     }
 
     public void updateGroupStudentNumbers(Group group,
