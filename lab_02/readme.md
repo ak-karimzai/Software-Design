@@ -61,7 +61,7 @@
 
     BackEnd - java
 
-    FrontEnd - Swing/Qt
+    FrontEnd - Swing
 
     Test - Junit
 
