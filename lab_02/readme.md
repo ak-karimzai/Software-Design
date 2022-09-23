@@ -27,20 +27,20 @@
 6. Use-Case - диаграмма
 
     use-case диаграмма администратора
-    ![Screenshot](/diags/schoolAdministratorUseCase.drawio.png)
+    ![Screenshot](diags/schoolAdministratorUseCase.drawio.png)
 
     use-case диаграмма учители
-    ![Screenshot](/diags/teacherUseCase.drawio.png)
+    ![Screenshot](diags/teacherUseCase.drawio.png)
 
     use-case диаграмма студента
-    ![Screenshot](/diags/studentUseCase.drawio.png)
+    ![Screenshot](diags/studentUseCase.drawio.png)
 7. ER-диаграмма сущностей
 
-    ![Screenshot](/diags/erDiagram.drawio.png)
+    ![Screenshot](diags/erDiagram.drawio.png)
 
 8. Верхнеуровневое разбиение на компоненты
    
-   ![Screenshot](/diags/dataComponent.png)
+   ![Screenshot](diags/dataComponent.png)
 
 9. Uml diagram
    ![Screenshot](diags/uml_diagram.drawio.png)
