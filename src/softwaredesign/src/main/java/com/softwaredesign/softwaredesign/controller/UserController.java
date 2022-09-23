@@ -1,9 +1,11 @@
 package com.softwaredesign.softwaredesign.controller;
 
 import com.softwaredesign.softwaredesign.entity.User;
+import com.softwaredesign.softwaredesign.exception.DatabaseAccessException;
 import com.softwaredesign.softwaredesign.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.jetbrains.annotations.NotNull;
+import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Controller;
 
 import java.util.List;
@@ -16,12 +18,16 @@ public class UserController {
     public void addUser(String login,
                         String password,
                         String accessLevel) {
-        User user = User.builder()
-                .login(login)
-                .password(password)
-                .accessLevel(accessLevel)
-                .build();
-        userRepository.save(user);
+        try {
+            User user = User.builder()
+                    .login(login)
+                    .password(password)
+                    .accessLevel(accessLevel)
+                    .build();
+            userRepository.save(user);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public User getUser(Long id) {
@@ -29,7 +35,11 @@ public class UserController {
     }
 
     public void addUser(User user) {
-        userRepository.save(user);
+        try {
+            userRepository.save(user);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public List<User> getAllUsers() {
@@ -40,25 +50,47 @@ public class UserController {
 
     public void updateUserAccessMode(@NotNull User user,
                                      String accessMode) {
-        user.setAccessLevel(accessMode);
-        userRepository.save(user);
+        try {
+            user.setAccessLevel(accessMode);
+            userRepository.save(user);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public void updateUserPassword(@NotNull User user,
                                    String password) {
-        user.setPassword(password);
-        userRepository.save(user);
+        try {
+            user.setPassword(password);
+            userRepository.save(user);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public List<User> getUsers() {
-        return userRepository.findAll();
+        List<User> users;
+        try {
+            users = userRepository.findAll();
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
+        return users;
     }
 
     public void deleteUser(User user) {
-        userRepository.delete(user);
+        try {
+            userRepository.delete(user);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public void deleteUser(Long id) {
-        userRepository.deleteById(id);
+        try {
+            userRepository.deleteById(id);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 }

@@ -1,13 +1,9 @@
 package com.softwaredesign.softwaredesign.controller;
 
-import com.softwaredesign.softwaredesign.entity.User;
-import com.softwaredesign.softwaredesign.repository.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class UserControllerTest {
@@ -29,5 +25,26 @@ class UserControllerTest {
         Assertions.assertEquals(lastUser.getAccessLevel(), accessLevel);
 
         userController.deleteUser(lastUser);
+    }
+
+    @Test
+    public void testDeleteUser() {
+        String name = "mmm";
+        String password = "ppp";
+        String accessLevel = "Admin";
+        userController.addUser(name, password, accessLevel);
+
+        var users = userController.getAllUsers();
+        var lastUser = users.get(users.size() - 1);
+
+        userController.deleteUser(lastUser);
+
+        users = userController.getAllUsers();
+        lastUser = users.get(users.size() - 1);
+
+        Assertions.assertNotEquals(lastUser.getLogin(), name);
+        Assertions.assertNotEquals(lastUser.getPassword(), password);
+        Assertions.assertNotEquals(lastUser.getAccessLevel(), accessLevel);
+
     }
 }

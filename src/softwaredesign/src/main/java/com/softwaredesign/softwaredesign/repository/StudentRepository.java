@@ -13,9 +13,4 @@ import java.util.List;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
     Student getByStudentId(Long id);
-    @Modifying
-    @Query(
-            "delete from Subject s where s.subjectId = ?1"
-    )
-    void deleteSubject(Subject subject);
 }
