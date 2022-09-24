@@ -3,11 +3,14 @@ package com.softwaredesign.softwaredesign.controller;
 import com.softwaredesign.softwaredesign.entity.Group;
 import com.softwaredesign.softwaredesign.entity.Student;
 import com.softwaredesign.softwaredesign.entity.Subject;
+import com.softwaredesign.softwaredesign.exception.DatabaseAccessException;
 import com.softwaredesign.softwaredesign.repository.StudentRepository;
 import lombok.AllArgsConstructor;
 import org.jetbrains.annotations.NotNull;
+import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -18,48 +21,91 @@ public class StudentController {
     public void addStudent(String firstName,
                            String fatherName,
                            List<Subject> subjects) {
-        Student student = Student.builder()
-                .firstName(firstName)
-                .fatherName(fatherName)
-                .subjects(subjects)
-                .build();
-        studentRepository.save(student);
+        try {
+            Student student = Student.builder()
+                    .firstName(firstName)
+                    .fatherName(fatherName)
+                    .subjects(subjects)
+                    .build();
+            studentRepository.save(student);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public void addStudent(Student student) {
-        studentRepository.save(student);
+        try {
+            studentRepository.save(student);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public List<Student> getStudents() {
-        return studentRepository.findAll();
+        List<Student> students;
+        try {
+            students = studentRepository.findAll();
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
+        return students;
     }
 
     public void updateStudent(Student student) {
-        studentRepository.save(student);
+        try {
+            studentRepository.save(student);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public void addSubject(@NotNull Student student,
                            Subject newSubject) {
-        student.getSubjects().add(newSubject);
-        studentRepository.save(student);
+        try {
+            var subjects = new ArrayList<>(student.getSubjects());
+            subjects.add(newSubject);
+            student.setSubjects(subjects);
+            studentRepository.save(student);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
+
     }
 
     public void deleteStudent(Student student) {
-        studentRepository.delete(student);
+        try {
+            studentRepository.delete(student);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public Student getStudent(Long id) {
-        var student =
-                studentRepository.getByStudentId(id);
+        Student student;
+        try {
+            student = studentRepository.getByStudentId(id);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
         return student;
     }
 
     public void changeStudentGroup(@NotNull Student student, Group newGroup) {
-        student.setGroup(newGroup);
-        studentRepository.save(student);
+        try {
+            student.setGroup(newGroup);
+            studentRepository.save(student);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
     }
 
     public List<Subject> getStudentSubjects(@NotNull Student student) {
-        return student.getSubjects();
+        List<Subject> subjects;
+        try {
+            subjects = student.getSubjects();
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException(e.getMessage());
+        }
+        return subjects;
     }
 }
