@@ -1,0 +1,4 @@
+/home/khalid/qtcreator_projs/untitled2/CMakeFiles/None.dir
+/home/khalid/qtcreator_projs/untitled2/CMakeFiles/test.dir
+/home/khalid/qtcreator_projs/untitled2/CMakeFiles/edit_cache.dir
+/home/khalid/qtcreator_projs/untitled2/CMakeFiles/rebuild_cache.dir
