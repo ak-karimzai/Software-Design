@@ -59,12 +59,10 @@
     
     Desktop App
 
-    BackEnd - java
+    BackEnd - c++
 
-    FrontEnd - Swing
+    FrontEnd - Qt
 
-    Test - Junit
+    Test - Gtest
 
     Database - PostgreSQL
-
-    ORM - Hibernate / Spring Data Jpa
