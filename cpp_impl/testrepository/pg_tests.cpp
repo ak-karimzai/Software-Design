@@ -12,12 +12,14 @@
 #include "../repository_impl/subjectrepositoryimplpg.h"
 #include "../controllers/subjectconstroller.h"
 
+#include "../repository_impl/authrepositoryimplpg.h"
+#include "../controllers/authcontroller.h"
 
-const std::string conn = "dbname = school \
-                          user = khalid \
-                          password = 1234abcd \
-                          hostaddr = 127.0.0.1 \
-                          port = 5432";
+const std::string conn = std::string("dbname = school ") +
+                         std::string("user = khalid ") +
+                         std::string("password = 1234abcd ") +
+                         std::string("hostaddr = 127.0.0.1 ") +
+                         std::string("port = 5432");
 
 TEST(PGStudentRepository, TestGetByName)
 {
@@ -215,3 +217,57 @@ TEST(PGSubjectRepository, TestStudentSubjects)
     }
 }
 
+TEST(PGAuthRepository, TestAddUserToAuth)
+{
+    AuthRepositoryImplPg authRepository = AuthRepositoryImplPg(conn);
+    AuthController authController(&authRepository);
+
+    authController.addNewUser("Khalid", "khalid", 1);
+
+    Auth userDetails = authController.getUserDetails(1);
+
+    ASSERT_EQ(userDetails.getTeacherId(), 1);
+    ASSERT_EQ(userDetails.getLogin(), "Khalid");
+    ASSERT_EQ(userDetails.getPassword(), "khalid");
+
+    authController.deleteUserDetails(userDetails.getId());
+
+}
+
+TEST(PGAuthRepository, TestChangeUserLogin)
+{
+    AuthRepositoryImplPg authRepository = AuthRepositoryImplPg(conn);
+    AuthController authController(&authRepository);
+
+    authController.addNewUser("Khalid", "khalid", 1);
+
+    authController.changeUserLogin(1, "new Login");
+
+    Auth userDetails = authController.getUserDetails(1);
+
+    ASSERT_EQ(userDetails.getTeacherId(), 1);
+    ASSERT_EQ(userDetails.getLogin(), "new Login");
+    ASSERT_EQ(userDetails.getPassword(), "khalid");
+
+    authController.deleteUserDetails(userDetails.getId());
+
+}
+
+TEST(PGAuthRepository, TestChangeUserPassword)
+{
+    AuthRepositoryImplPg authRepository = AuthRepositoryImplPg(conn);
+    AuthController authController(&authRepository);
+
+    authController.addNewUser("Khalid", "khalid", 1);
+
+    authController.changeUserPassword(1, "new password");
+
+    Auth userDetails = authController.getUserDetails(1);
+
+    ASSERT_EQ(userDetails.getTeacherId(), 1);
+    ASSERT_EQ(userDetails.getLogin(), "Khalid");
+    ASSERT_EQ(userDetails.getPassword(), "new password");
+
+    authController.deleteUserDetails(userDetails.getId());
+
+}

@@ -12,6 +12,9 @@
 #include "../testrepository/testsubjectrepository.h"
 #include "../controllers/subjectconstroller.h"
 
+#include "../testrepository/testauthrepository.h"
+#include "../controllers/authcontroller.h"
+
 TEST(TestStudentController, TestAdd)
 {
     std::vector<Student> students = {
@@ -233,4 +236,66 @@ TEST(TestSubjectController, TestGetAllSubjects) {
     ASSERT_EQ(subject.getSubjectName(), "Math");
     ASSERT_EQ(subject.getMarks(), 100);
     ASSERT_EQ(subject.getStudentId(), 3);
+}
+
+
+TEST(TestAuthController, TestAddNewUser) {
+    std::vector<Auth> auths = {
+        Auth(1, "login", "password", 1),
+        Auth(2, "newpass", "passnew", 2),
+        Auth(3, "logpass", "passpass", 3)
+    };
+
+    TestAuthRepository authRepository(auths);
+    AuthController authController(&authRepository);
+
+    authController.addNewUser("khalid", "khalid", 4);
+
+    auto auth = authController.getUserDetails(4);
+
+    ASSERT_EQ(auth.getLogin(), "khalid");
+    ASSERT_EQ(auth.getPassword(), "khalid");
+    ASSERT_EQ(auth.getTeacherId(), 4);
+}
+
+TEST(TestAuthController, TestChangeUserPass) {
+    std::vector<Auth> auths = {
+        Auth(1, "login", "password", 1),
+        Auth(2, "newpass", "passnew", 2),
+        Auth(3, "logpass", "passpass", 3)
+    };
+
+    TestAuthRepository authRepository(auths);
+    AuthController authController(&authRepository);
+
+    authController.addNewUser("khalid", "khalid", 4);
+
+    authController.changeUserPassword(4, "newPass");
+
+    auto auth = authController.getUserDetails(4);
+
+    ASSERT_EQ(auth.getLogin(), "khalid");
+    ASSERT_EQ(auth.getPassword(), "newPass");
+    ASSERT_EQ(auth.getTeacherId(), 4);
+}
+
+TEST(TestAuthController, TestChangeUserLogin) {
+    std::vector<Auth> auths = {
+        Auth(1, "login", "password", 1),
+        Auth(2, "newpass", "passnew", 2),
+        Auth(3, "logpass", "passpass", 3)
+    };
+
+    TestAuthRepository authRepository(auths);
+    AuthController authController(&authRepository);
+
+    authController.addNewUser("khalid", "khalid", 4);
+
+    authController.changeUserLogin(4, "Ahmad Khalid");
+
+    auto auth = authController.getUserDetails(4);
+
+    ASSERT_EQ(auth.getLogin(), "Ahmad Khalid");
+    ASSERT_EQ(auth.getPassword(), "khalid");
+    ASSERT_EQ(auth.getTeacherId(), 4);
 }

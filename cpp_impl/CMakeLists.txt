@@ -58,22 +58,26 @@ set(SOURCES
     controllers/studentcontroller.cpp
     controllers/subjectconstroller.cpp
     controllers/teachercontroller.cpp
+    controllers/authcontroller.cpp
 
     entity/group.cpp
     entity/student.cpp
     entity/subject.cpp
     entity/teacher.cpp
+    entity/auth.cpp
 
     repository_impl/grouprepositoryimplpg.cpp
     repository_impl/studentrepositoryimplpg.cpp
     repository_impl/subjectrepositoryimplpg.cpp
     repository_impl/teacherrepositoryimplpg.cpp
+    repository_impl/authrepositoryimplpg.cpp
     repository_impl/querygenerators.cpp
 
     repositories/grouprepository.cpp
     repositories/studentrepository.cpp
     repositories/subjectrepository.cpp
     repositories/teacherrepository.cpp
+    repositories/authrepository.cpp
 
     exceptions/exception.cpp
 )
@@ -83,22 +87,28 @@ set(HEADERS
     controllers/studentcontroller.h
     controllers/subjectconstroller.h
     controllers/teachercontroller.h
+    controllers/authcontroller.h
+
 
     entity/group.h
     entity/student.h
     entity/subject.h
     entity/teacher.h
+    entity/auth.h
+
 
     repository_impl/grouprepositoryimplpg.h
     repository_impl/studentrepositoryimplpg.h
     repository_impl/subjectrepositoryimplpg.h
     repository_impl/teacherrepositoryimplpg.h
+    repository_impl/authrepositoryimplpg.h
     repository_impl/querygenerators.h
 
     repositories/grouprepository.h
     repositories/studentrepository.h
     repositories/subjectrepository.h
     repositories/teacherrepository.h
+    repositories/authrepository.h
 
     exceptions/exception.h
 )
@@ -114,11 +124,13 @@ set(
     testrepository/teststudentrepository.h
     testrepository/testsubjectrepository.h
     testrepository/testteacherrepository.h
+    testrepository/testauthrepository.h
 
     testrepository/testgrouprepository.cpp
     testrepository/teststudentrepository.cpp
     testrepository/testsubjectrepository.cpp
     testrepository/testteacherrepository.cpp
+    testrepository/testauthrepository.cpp
 )
 
 add_executable(None

@@ -233,3 +233,56 @@ std::string TeacherQueryGenerator::getTeacherQuery(const std::string teacherName
           "where teacher_name = '" << teacherName << "'";
     return ss.str();
 }
+
+std::string AuthQueryGenerator::getNewUserQuery(const std::string &login, const std::string &password, const int teacherId)
+{
+    std::stringstream ss;
+    ss << "insert into tbl_auth(login, password, teacher_id) values ('" <<
+          login << "', '" << password << "', " << teacherId << ")";
+    return ss.str();
+}
+
+std::string AuthQueryGenerator::changeUserPasswordQuery(const int teacherId, const std::string &newPassword)
+{
+    std::stringstream ss;
+    ss << "update tbl_auth " <<
+          "set password = '" <<
+          newPassword << "' " <<
+          "where teacher_id = " <<
+          teacherId;
+    return ss.str();
+}
+
+std::string AuthQueryGenerator::changeUserLoginQuery(const int teacherId, const std::string &newLogin)
+{
+    std::stringstream ss;
+    ss << "update tbl_auth " <<
+          "set login = '" <<
+          newLogin << "' " <<
+          "where teacher_id = " <<
+          teacherId;
+    return ss.str();
+}
+
+std::string AuthQueryGenerator::getLoginDetailsQuery(const int teacherId)
+{
+    std::stringstream ss;
+    ss << "select * from tbl_auth " <<
+          "where teacher_id = " << teacherId;
+    return ss.str();
+}
+
+std::string AuthQueryGenerator::getUsersQuery()
+{
+    std::stringstream ss;
+    ss << "select * from tbl_auth ";
+    return ss.str();
+}
+
+std::string AuthQueryGenerator::getDeleteDetailsQuery(const int authId)
+{
+    std::stringstream ss;
+    ss << "delete from tbl_auth " <<
+          "where auth_id = " << authId;
+    return ss.str();
+}

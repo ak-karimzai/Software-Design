@@ -69,4 +69,21 @@ public:
     static std::string getTeacherQuery(const std::string teacherName);
 };
 
+
+class AuthQueryGenerator
+{
+public:
+
+    static std::string getNewUserQuery(const std::string & login,
+                                       const std::string & password,
+                                       const int teacherId);
+    static std::string changeUserPasswordQuery(const int teacherId,
+                                               const std::string & newPassword);
+    static std::string changeUserLoginQuery(const int teacherId,
+                                               const std::string & newLogin);
+    static std::string getLoginDetailsQuery(const int teacherId);
+    static std::string getUsersQuery();
+    static std::string getDeleteDetailsQuery(const int authId);
+};
+
 #endif // QUERYGENERATORS_H
