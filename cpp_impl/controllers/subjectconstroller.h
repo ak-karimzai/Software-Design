@@ -21,6 +21,7 @@ public:
     void changeSubjectName(int subjectId,
                            const std::string & newName);
     void deleteSubject(int subjectId);
+    Subject getSubject(const std::string & subjectName);
 private:
     SubjectRepository *subjectRepository;
 };

@@ -11,6 +11,11 @@ void GroupController::addGroup(const std::string name, const int teacherID)
     this->groupRepository->addNewGroup(name, teacherID);
 }
 
+Group GroupController::getGroup(const std::string &groupName)
+{
+    return this->groupRepository->getGroup(groupName);
+}
+
 std::vector<Group> GroupController::getAllGroups()
 {
     return this->groupRepository->getAllGroups();

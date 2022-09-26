@@ -4,9 +4,17 @@ project(None LANGUAGES CXX)
 
 enable_testing()
 
-
-
 find_package(Threads REQUIRED)
+
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+
+if(NOT "${CMAKE_CXX_STANDARD}")
+    set(CMAKE_CXX_STANDARD 20)
+endif()
+
+if(NOT PostgreSQL_FOUND)
+    find_package(PostgreSQL REQUIRED)
+endif()
 
 if ($ENV{GOOGLETEST_DIR})
     set(GOOGLETEST_DIR $ENV{GOOGLETEST_DIR})
@@ -40,57 +48,94 @@ include_directories(${GTestIncludes})
 
 #add_subdirectory("./")
 
-add_executable(None
-    testrepository/run_tests.cpp
-    testrepository/tests.cpp
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --coverage -DJWT_CLAIM_EXPLICIT=0")
+link_directories(libs)
 
+set(CMAKE_CXX_FLAGS "-lpqxx -lpq")
+
+set(SOURCES
     controllers/groupcontroller.cpp
-    controllers/groupcontroller.h
     controllers/studentcontroller.cpp
-    controllers/studentcontroller.h
     controllers/subjectconstroller.cpp
-    controllers/subjectconstroller.h
     controllers/teachercontroller.cpp
-    controllers/teachercontroller.h
 
     entity/group.cpp
-    entity/group.h
     entity/student.cpp
-    entity/student.h
     entity/subject.cpp
-    entity/subject.h
     entity/teacher.cpp
-    entity/teacher.h
 
     repository_impl/grouprepositoryimplpg.cpp
-    repository_impl/grouprepositoryimplpg.h
     repository_impl/studentrepositoryimplpg.cpp
-    repository_impl/studentrepositoryimplpg.h
     repository_impl/subjectrepositoryimplpg.cpp
-    repository_impl/subjectrepositoryimplpg.h
     repository_impl/teacherrepositoryimplpg.cpp
-    repository_impl/teacherrepositoryimplpg.h
-
-    testrepository/testgrouprepository.cpp
-    testrepository/testgrouprepository.h
-    testrepository/teststudentrepository.cpp
-    testrepository/teststudentrepository.h
-    testrepository/testsubjectrepository.cpp
-    testrepository/testsubjectrepository.h
-    testrepository/testteacherrepository.cpp
-    testrepository/testteacherrepository.h
+    repository_impl/querygenerators.cpp
 
     repositories/grouprepository.cpp
-    repositories/grouprepository.h
     repositories/studentrepository.cpp
-    repositories/studentrepository.h
     repositories/subjectrepository.cpp
-    repositories/subjectrepository.h
     repositories/teacherrepository.cpp
+
+    exceptions/exception.cpp
+)
+
+set(HEADERS
+    controllers/groupcontroller.h
+    controllers/studentcontroller.h
+    controllers/subjectconstroller.h
+    controllers/teachercontroller.h
+
+    entity/group.h
+    entity/student.h
+    entity/subject.h
+    entity/teacher.h
+
+    repository_impl/grouprepositoryimplpg.h
+    repository_impl/studentrepositoryimplpg.h
+    repository_impl/subjectrepositoryimplpg.h
+    repository_impl/teacherrepositoryimplpg.h
+    repository_impl/querygenerators.h
+
+    repositories/grouprepository.h
+    repositories/studentrepository.h
+    repositories/subjectrepository.h
     repositories/teacherrepository.h
 
-               ${GTestFiles})
+    exceptions/exception.h
+)
+
+set(
+    TEST_SRC_HEADERS
+
+    testrepository/run_tests.cpp
+    testrepository/pg_tests.cpp
+    testrepository/tests.cpp
+
+    testrepository/testgrouprepository.h
+    testrepository/teststudentrepository.h
+    testrepository/testsubjectrepository.h
+    testrepository/testteacherrepository.h
+
+    testrepository/testgrouprepository.cpp
+    testrepository/teststudentrepository.cpp
+    testrepository/testsubjectrepository.cpp
+    testrepository/testteacherrepository.cpp
+)
+
+add_executable(None
+    ${SOURCES}
+    ${HEADERS}
+    ${TEST_SRC_HEADERS}
+    ${GTestFiles})
+
+add_executable(main.exe
+    main.cpp
+
+    ${SOURCES}
+    ${HEADERS}
+)
 
 add_test(NAME None COMMAND None)
-target_link_libraries(None PRIVATE Threads::Threads)
+target_link_libraries(None PRIVATE Threads::Threads pqxx pq)
+target_link_libraries(main.exe pqxx pq)
+
 

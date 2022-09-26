@@ -35,3 +35,8 @@ void SubjectConstroller::deleteSubject(int subjectId)
 {
     this->subjectRepository->deleteSubject(subjectId);
 }
+
+Subject SubjectConstroller::getSubject(const std::string &subjectName)
+{
+    return this->subjectRepository->getSubject(subjectName);
+}

@@ -14,6 +14,7 @@ public:
     ~GroupController();
 
     void addGroup(const std::string name, const int teacherID);
+    Group getGroup(const std::string & groupName);
     std::vector<Group> getAllGroups();
     std::vector<Group> getAllGroupsByTeacherId(const int id);
     void changeGroupName(const int id, std::string newGroupName);

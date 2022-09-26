@@ -41,3 +41,8 @@ void GroupRepository::deleteGroup(const int id)
 {
     
 }
+
+Group GroupRepository::getGroup(const std::string &groupName)
+{
+
+}

@@ -3,18 +3,25 @@
 
 #include "../repositories/studentrepository.h"
 
+#include <pqxx/pqxx>
+
 class StudentRepositoryImplPg : public StudentRepository
 {
     // StudentRepository interface
 public:
-    void addStudent(const Student &newStudent);
+    StudentRepositoryImplPg(const std::string &connectionParams);
+
+    ~StudentRepositoryImplPg();
     void addStudent(const std::string studentName, const std::string admissionNumber, const int groupId);
-    void addStudent(const int id, const std::string studentName, const std::string admissionNumber, const int groupId);
     void removeStudent(const int id);
     void changeStudentName(int id, const std::string newName);
-    Student getStudent(int id);
+    Student getStudent(const int id);
+    Student getStudent(const std::string & studentName);
+
     std::vector<Student> getAllStudents();
-    std::vector<Student> getAllGroupStudents(int groupId);
+    std::vector<Student> getGroupAllStudents(int groupId);
+private:
+    std::string connectionParams;
 };
 
 #endif // STUDENTREPOSITORYIMPLPG_H

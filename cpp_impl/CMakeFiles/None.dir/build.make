@@ -69,38 +69,10 @@ include CMakeFiles/None.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/None.dir/flags.make
 
-CMakeFiles/None.dir/testrepository/run_tests.cpp.o: CMakeFiles/None.dir/flags.make
-CMakeFiles/None.dir/testrepository/run_tests.cpp.o: testrepository/run_tests.cpp
-CMakeFiles/None.dir/testrepository/run_tests.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/None.dir/testrepository/run_tests.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/run_tests.cpp.o -MF CMakeFiles/None.dir/testrepository/run_tests.cpp.o.d -o CMakeFiles/None.dir/testrepository/run_tests.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/run_tests.cpp
-
-CMakeFiles/None.dir/testrepository/run_tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/run_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/run_tests.cpp > CMakeFiles/None.dir/testrepository/run_tests.cpp.i
-
-CMakeFiles/None.dir/testrepository/run_tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/run_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/run_tests.cpp -o CMakeFiles/None.dir/testrepository/run_tests.cpp.s
-
-CMakeFiles/None.dir/testrepository/tests.cpp.o: CMakeFiles/None.dir/flags.make
-CMakeFiles/None.dir/testrepository/tests.cpp.o: testrepository/tests.cpp
-CMakeFiles/None.dir/testrepository/tests.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/None.dir/testrepository/tests.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/tests.cpp.o -MF CMakeFiles/None.dir/testrepository/tests.cpp.o.d -o CMakeFiles/None.dir/testrepository/tests.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/tests.cpp
-
-CMakeFiles/None.dir/testrepository/tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/tests.cpp > CMakeFiles/None.dir/testrepository/tests.cpp.i
-
-CMakeFiles/None.dir/testrepository/tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/tests.cpp -o CMakeFiles/None.dir/testrepository/tests.cpp.s
-
 CMakeFiles/None.dir/controllers/groupcontroller.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/controllers/groupcontroller.cpp.o: controllers/groupcontroller.cpp
 CMakeFiles/None.dir/controllers/groupcontroller.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/None.dir/controllers/groupcontroller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/None.dir/controllers/groupcontroller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/controllers/groupcontroller.cpp.o -MF CMakeFiles/None.dir/controllers/groupcontroller.cpp.o.d -o CMakeFiles/None.dir/controllers/groupcontroller.cpp.o -c /home/khalid/qtcreator_projs/untitled2/controllers/groupcontroller.cpp
 
 CMakeFiles/None.dir/controllers/groupcontroller.cpp.i: cmake_force
@@ -114,7 +86,7 @@ CMakeFiles/None.dir/controllers/groupcontroller.cpp.s: cmake_force
 CMakeFiles/None.dir/controllers/studentcontroller.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/controllers/studentcontroller.cpp.o: controllers/studentcontroller.cpp
 CMakeFiles/None.dir/controllers/studentcontroller.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/None.dir/controllers/studentcontroller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/None.dir/controllers/studentcontroller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/controllers/studentcontroller.cpp.o -MF CMakeFiles/None.dir/controllers/studentcontroller.cpp.o.d -o CMakeFiles/None.dir/controllers/studentcontroller.cpp.o -c /home/khalid/qtcreator_projs/untitled2/controllers/studentcontroller.cpp
 
 CMakeFiles/None.dir/controllers/studentcontroller.cpp.i: cmake_force
@@ -128,7 +100,7 @@ CMakeFiles/None.dir/controllers/studentcontroller.cpp.s: cmake_force
 CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o: controllers/subjectconstroller.cpp
 CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o -MF CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o.d -o CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o -c /home/khalid/qtcreator_projs/untitled2/controllers/subjectconstroller.cpp
 
 CMakeFiles/None.dir/controllers/subjectconstroller.cpp.i: cmake_force
@@ -142,7 +114,7 @@ CMakeFiles/None.dir/controllers/subjectconstroller.cpp.s: cmake_force
 CMakeFiles/None.dir/controllers/teachercontroller.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/controllers/teachercontroller.cpp.o: controllers/teachercontroller.cpp
 CMakeFiles/None.dir/controllers/teachercontroller.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/None.dir/controllers/teachercontroller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/None.dir/controllers/teachercontroller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/controllers/teachercontroller.cpp.o -MF CMakeFiles/None.dir/controllers/teachercontroller.cpp.o.d -o CMakeFiles/None.dir/controllers/teachercontroller.cpp.o -c /home/khalid/qtcreator_projs/untitled2/controllers/teachercontroller.cpp
 
 CMakeFiles/None.dir/controllers/teachercontroller.cpp.i: cmake_force
@@ -156,7 +128,7 @@ CMakeFiles/None.dir/controllers/teachercontroller.cpp.s: cmake_force
 CMakeFiles/None.dir/entity/group.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/entity/group.cpp.o: entity/group.cpp
 CMakeFiles/None.dir/entity/group.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/None.dir/entity/group.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/None.dir/entity/group.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/entity/group.cpp.o -MF CMakeFiles/None.dir/entity/group.cpp.o.d -o CMakeFiles/None.dir/entity/group.cpp.o -c /home/khalid/qtcreator_projs/untitled2/entity/group.cpp
 
 CMakeFiles/None.dir/entity/group.cpp.i: cmake_force
@@ -170,7 +142,7 @@ CMakeFiles/None.dir/entity/group.cpp.s: cmake_force
 CMakeFiles/None.dir/entity/student.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/entity/student.cpp.o: entity/student.cpp
 CMakeFiles/None.dir/entity/student.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/None.dir/entity/student.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/None.dir/entity/student.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/entity/student.cpp.o -MF CMakeFiles/None.dir/entity/student.cpp.o.d -o CMakeFiles/None.dir/entity/student.cpp.o -c /home/khalid/qtcreator_projs/untitled2/entity/student.cpp
 
 CMakeFiles/None.dir/entity/student.cpp.i: cmake_force
@@ -184,7 +156,7 @@ CMakeFiles/None.dir/entity/student.cpp.s: cmake_force
 CMakeFiles/None.dir/entity/subject.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/entity/subject.cpp.o: entity/subject.cpp
 CMakeFiles/None.dir/entity/subject.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/None.dir/entity/subject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/None.dir/entity/subject.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/entity/subject.cpp.o -MF CMakeFiles/None.dir/entity/subject.cpp.o.d -o CMakeFiles/None.dir/entity/subject.cpp.o -c /home/khalid/qtcreator_projs/untitled2/entity/subject.cpp
 
 CMakeFiles/None.dir/entity/subject.cpp.i: cmake_force
@@ -198,7 +170,7 @@ CMakeFiles/None.dir/entity/subject.cpp.s: cmake_force
 CMakeFiles/None.dir/entity/teacher.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/entity/teacher.cpp.o: entity/teacher.cpp
 CMakeFiles/None.dir/entity/teacher.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/None.dir/entity/teacher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/None.dir/entity/teacher.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/entity/teacher.cpp.o -MF CMakeFiles/None.dir/entity/teacher.cpp.o.d -o CMakeFiles/None.dir/entity/teacher.cpp.o -c /home/khalid/qtcreator_projs/untitled2/entity/teacher.cpp
 
 CMakeFiles/None.dir/entity/teacher.cpp.i: cmake_force
@@ -212,7 +184,7 @@ CMakeFiles/None.dir/entity/teacher.cpp.s: cmake_force
 CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o: repository_impl/grouprepositoryimplpg.cpp
 CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o -MF CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o.d -o CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/grouprepositoryimplpg.cpp
 
 CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.i: cmake_force
@@ -226,7 +198,7 @@ CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.s: cmake_force
 CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o: repository_impl/studentrepositoryimplpg.cpp
 CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o -MF CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o.d -o CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/studentrepositoryimplpg.cpp
 
 CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.i: cmake_force
@@ -240,7 +212,7 @@ CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.s: cmake_force
 CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o: repository_impl/subjectrepositoryimplpg.cpp
 CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o -MF CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o.d -o CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/subjectrepositoryimplpg.cpp
 
 CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.i: cmake_force
@@ -254,7 +226,7 @@ CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.s: cmake_force
 CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o: repository_impl/teacherrepositoryimplpg.cpp
 CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o -MF CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o.d -o CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplpg.cpp
 
 CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.i: cmake_force
@@ -265,66 +237,24 @@ CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplpg.cpp -o CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.s
 
-CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o: CMakeFiles/None.dir/flags.make
-CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o: testrepository/testgrouprepository.cpp
-CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o -MF CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/testgrouprepository.cpp
+CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o: repository_impl/querygenerators.cpp
+CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o -MF CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o.d -o CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/querygenerators.cpp
 
-CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/testgrouprepository.cpp > CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.i
+CMakeFiles/None.dir/repository_impl/querygenerators.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/repository_impl/querygenerators.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/repository_impl/querygenerators.cpp > CMakeFiles/None.dir/repository_impl/querygenerators.cpp.i
 
-CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/testgrouprepository.cpp -o CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.s
-
-CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o: CMakeFiles/None.dir/flags.make
-CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o: testrepository/teststudentrepository.cpp
-CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o -MF CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/teststudentrepository.cpp
-
-CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/teststudentrepository.cpp > CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.i
-
-CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/teststudentrepository.cpp -o CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.s
-
-CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o: CMakeFiles/None.dir/flags.make
-CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o: testrepository/testsubjectrepository.cpp
-CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o -MF CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/testsubjectrepository.cpp
-
-CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/testsubjectrepository.cpp > CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.i
-
-CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/testsubjectrepository.cpp -o CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.s
-
-CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o: CMakeFiles/None.dir/flags.make
-CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o: testrepository/testteacherrepository.cpp
-CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o -MF CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/testteacherrepository.cpp
-
-CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/testteacherrepository.cpp > CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.i
-
-CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/testteacherrepository.cpp -o CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.s
+CMakeFiles/None.dir/repository_impl/querygenerators.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/repository_impl/querygenerators.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repository_impl/querygenerators.cpp -o CMakeFiles/None.dir/repository_impl/querygenerators.cpp.s
 
 CMakeFiles/None.dir/repositories/grouprepository.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repositories/grouprepository.cpp.o: repositories/grouprepository.cpp
 CMakeFiles/None.dir/repositories/grouprepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/None.dir/repositories/grouprepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/None.dir/repositories/grouprepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repositories/grouprepository.cpp.o -MF CMakeFiles/None.dir/repositories/grouprepository.cpp.o.d -o CMakeFiles/None.dir/repositories/grouprepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/grouprepository.cpp
 
 CMakeFiles/None.dir/repositories/grouprepository.cpp.i: cmake_force
@@ -338,7 +268,7 @@ CMakeFiles/None.dir/repositories/grouprepository.cpp.s: cmake_force
 CMakeFiles/None.dir/repositories/studentrepository.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repositories/studentrepository.cpp.o: repositories/studentrepository.cpp
 CMakeFiles/None.dir/repositories/studentrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/None.dir/repositories/studentrepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/None.dir/repositories/studentrepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repositories/studentrepository.cpp.o -MF CMakeFiles/None.dir/repositories/studentrepository.cpp.o.d -o CMakeFiles/None.dir/repositories/studentrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/studentrepository.cpp
 
 CMakeFiles/None.dir/repositories/studentrepository.cpp.i: cmake_force
@@ -352,7 +282,7 @@ CMakeFiles/None.dir/repositories/studentrepository.cpp.s: cmake_force
 CMakeFiles/None.dir/repositories/subjectrepository.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repositories/subjectrepository.cpp.o: repositories/subjectrepository.cpp
 CMakeFiles/None.dir/repositories/subjectrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/None.dir/repositories/subjectrepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/None.dir/repositories/subjectrepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repositories/subjectrepository.cpp.o -MF CMakeFiles/None.dir/repositories/subjectrepository.cpp.o.d -o CMakeFiles/None.dir/repositories/subjectrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/subjectrepository.cpp
 
 CMakeFiles/None.dir/repositories/subjectrepository.cpp.i: cmake_force
@@ -366,7 +296,7 @@ CMakeFiles/None.dir/repositories/subjectrepository.cpp.s: cmake_force
 CMakeFiles/None.dir/repositories/teacherrepository.cpp.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/repositories/teacherrepository.cpp.o: repositories/teacherrepository.cpp
 CMakeFiles/None.dir/repositories/teacherrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/None.dir/repositories/teacherrepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/None.dir/repositories/teacherrepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/repositories/teacherrepository.cpp.o -MF CMakeFiles/None.dir/repositories/teacherrepository.cpp.o.d -o CMakeFiles/None.dir/repositories/teacherrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/teacherrepository.cpp
 
 CMakeFiles/None.dir/repositories/teacherrepository.cpp.i: cmake_force
@@ -377,10 +307,122 @@ CMakeFiles/None.dir/repositories/teacherrepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/repositories/teacherrepository.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repositories/teacherrepository.cpp -o CMakeFiles/None.dir/repositories/teacherrepository.cpp.s
 
+CMakeFiles/None.dir/exceptions/exception.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/exceptions/exception.cpp.o: exceptions/exception.cpp
+CMakeFiles/None.dir/exceptions/exception.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/None.dir/exceptions/exception.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/exceptions/exception.cpp.o -MF CMakeFiles/None.dir/exceptions/exception.cpp.o.d -o CMakeFiles/None.dir/exceptions/exception.cpp.o -c /home/khalid/qtcreator_projs/untitled2/exceptions/exception.cpp
+
+CMakeFiles/None.dir/exceptions/exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/exceptions/exception.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/exceptions/exception.cpp > CMakeFiles/None.dir/exceptions/exception.cpp.i
+
+CMakeFiles/None.dir/exceptions/exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/exceptions/exception.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/exceptions/exception.cpp -o CMakeFiles/None.dir/exceptions/exception.cpp.s
+
+CMakeFiles/None.dir/testrepository/run_tests.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/testrepository/run_tests.cpp.o: testrepository/run_tests.cpp
+CMakeFiles/None.dir/testrepository/run_tests.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/None.dir/testrepository/run_tests.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/run_tests.cpp.o -MF CMakeFiles/None.dir/testrepository/run_tests.cpp.o.d -o CMakeFiles/None.dir/testrepository/run_tests.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/run_tests.cpp
+
+CMakeFiles/None.dir/testrepository/run_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/run_tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/run_tests.cpp > CMakeFiles/None.dir/testrepository/run_tests.cpp.i
+
+CMakeFiles/None.dir/testrepository/run_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/run_tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/run_tests.cpp -o CMakeFiles/None.dir/testrepository/run_tests.cpp.s
+
+CMakeFiles/None.dir/testrepository/pg_tests.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/testrepository/pg_tests.cpp.o: testrepository/pg_tests.cpp
+CMakeFiles/None.dir/testrepository/pg_tests.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/None.dir/testrepository/pg_tests.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/pg_tests.cpp.o -MF CMakeFiles/None.dir/testrepository/pg_tests.cpp.o.d -o CMakeFiles/None.dir/testrepository/pg_tests.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/pg_tests.cpp
+
+CMakeFiles/None.dir/testrepository/pg_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/pg_tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/pg_tests.cpp > CMakeFiles/None.dir/testrepository/pg_tests.cpp.i
+
+CMakeFiles/None.dir/testrepository/pg_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/pg_tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/pg_tests.cpp -o CMakeFiles/None.dir/testrepository/pg_tests.cpp.s
+
+CMakeFiles/None.dir/testrepository/tests.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/testrepository/tests.cpp.o: testrepository/tests.cpp
+CMakeFiles/None.dir/testrepository/tests.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/None.dir/testrepository/tests.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/tests.cpp.o -MF CMakeFiles/None.dir/testrepository/tests.cpp.o.d -o CMakeFiles/None.dir/testrepository/tests.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/tests.cpp
+
+CMakeFiles/None.dir/testrepository/tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/tests.cpp > CMakeFiles/None.dir/testrepository/tests.cpp.i
+
+CMakeFiles/None.dir/testrepository/tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/tests.cpp -o CMakeFiles/None.dir/testrepository/tests.cpp.s
+
+CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o: testrepository/testgrouprepository.cpp
+CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o -MF CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/testgrouprepository.cpp
+
+CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/testgrouprepository.cpp > CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.i
+
+CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/testgrouprepository.cpp -o CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.s
+
+CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o: testrepository/teststudentrepository.cpp
+CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o -MF CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/teststudentrepository.cpp
+
+CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/teststudentrepository.cpp > CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.i
+
+CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/teststudentrepository.cpp -o CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.s
+
+CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o: testrepository/testsubjectrepository.cpp
+CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o -MF CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/testsubjectrepository.cpp
+
+CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/testsubjectrepository.cpp > CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.i
+
+CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/testsubjectrepository.cpp -o CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.s
+
+CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o: CMakeFiles/None.dir/flags.make
+CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o: testrepository/testteacherrepository.cpp
+CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o: CMakeFiles/None.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o -MF CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o.d -o CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/testrepository/testteacherrepository.cpp
+
+CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/testrepository/testteacherrepository.cpp > CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.i
+
+CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/testrepository/testteacherrepository.cpp -o CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.s
+
 CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o: /usr/src/gtest/src/gtest-all.cc
 CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o -MF CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o.d -o CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc
 
 CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.i: cmake_force
@@ -394,7 +436,7 @@ CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.s: cmake_force
 CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o: CMakeFiles/None.dir/flags.make
 CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o: /usr/src/gmock/src/gmock-all.cc
 CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o: CMakeFiles/None.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o -MF CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o.d -o CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc
 
 CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.i: cmake_force
@@ -407,8 +449,6 @@ CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.s: cmake_force
 
 # Object files for target None
 None_OBJECTS = \
-"CMakeFiles/None.dir/testrepository/run_tests.cpp.o" \
-"CMakeFiles/None.dir/testrepository/tests.cpp.o" \
 "CMakeFiles/None.dir/controllers/groupcontroller.cpp.o" \
 "CMakeFiles/None.dir/controllers/studentcontroller.cpp.o" \
 "CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o" \
@@ -421,22 +461,25 @@ None_OBJECTS = \
 "CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o" \
 "CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o" \
 "CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o" \
-"CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o" \
-"CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o" \
-"CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o" \
-"CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o" \
+"CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o" \
 "CMakeFiles/None.dir/repositories/grouprepository.cpp.o" \
 "CMakeFiles/None.dir/repositories/studentrepository.cpp.o" \
 "CMakeFiles/None.dir/repositories/subjectrepository.cpp.o" \
 "CMakeFiles/None.dir/repositories/teacherrepository.cpp.o" \
+"CMakeFiles/None.dir/exceptions/exception.cpp.o" \
+"CMakeFiles/None.dir/testrepository/run_tests.cpp.o" \
+"CMakeFiles/None.dir/testrepository/pg_tests.cpp.o" \
+"CMakeFiles/None.dir/testrepository/tests.cpp.o" \
+"CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o" \
+"CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o" \
+"CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o" \
+"CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o" \
 "CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o" \
 "CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o"
 
 # External object files for target None
 None_EXTERNAL_OBJECTS =
 
-None: CMakeFiles/None.dir/testrepository/run_tests.cpp.o
-None: CMakeFiles/None.dir/testrepository/tests.cpp.o
 None: CMakeFiles/None.dir/controllers/groupcontroller.cpp.o
 None: CMakeFiles/None.dir/controllers/studentcontroller.cpp.o
 None: CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o
@@ -449,19 +492,24 @@ None: CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o
 None: CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o
 None: CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o
 None: CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o
-None: CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o
-None: CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o
-None: CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o
-None: CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o
+None: CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o
 None: CMakeFiles/None.dir/repositories/grouprepository.cpp.o
 None: CMakeFiles/None.dir/repositories/studentrepository.cpp.o
 None: CMakeFiles/None.dir/repositories/subjectrepository.cpp.o
 None: CMakeFiles/None.dir/repositories/teacherrepository.cpp.o
+None: CMakeFiles/None.dir/exceptions/exception.cpp.o
+None: CMakeFiles/None.dir/testrepository/run_tests.cpp.o
+None: CMakeFiles/None.dir/testrepository/pg_tests.cpp.o
+None: CMakeFiles/None.dir/testrepository/tests.cpp.o
+None: CMakeFiles/None.dir/testrepository/testgrouprepository.cpp.o
+None: CMakeFiles/None.dir/testrepository/teststudentrepository.cpp.o
+None: CMakeFiles/None.dir/testrepository/testsubjectrepository.cpp.o
+None: CMakeFiles/None.dir/testrepository/testteacherrepository.cpp.o
 None: CMakeFiles/None.dir/usr/src/gtest/src/gtest-all.cc.o
 None: CMakeFiles/None.dir/usr/src/gmock/src/gmock-all.cc.o
 None: CMakeFiles/None.dir/build.make
 None: CMakeFiles/None.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable None"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable None"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/None.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

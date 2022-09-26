@@ -15,6 +15,7 @@ public:
     void addNewTeacher(std::string teacherName,
                        std::string teacherRegesteationNumber);
     std::vector<Teacher> getAllTeachers();
+    Teacher getTeacherByName(const std::string & teacherName);
     void deleteTeacher(const int id);
     void changeTeacherName(const int id,
                            std::string newTeacherName);

@@ -47,3 +47,8 @@ void SubjectRepository::deleteSubject(const int id)
 {
     
 }
+
+Subject SubjectRepository::getSubject(const std::string &subjectName)
+{
+
+}

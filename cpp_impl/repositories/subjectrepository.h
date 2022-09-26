@@ -21,6 +21,7 @@ public:
     virtual void changeSubjectMarks(const int id, const int newMarks);
     virtual void changeSubjectStudentId(const int id, const int studentId);
     virtual void deleteSubject(const int id);
+    virtual Subject getSubject(const std::string & subjectName);
     virtual std::vector<Subject> getAllSubject();
     virtual std::vector<Subject> getSubjectByStudent(int studentId);
 };

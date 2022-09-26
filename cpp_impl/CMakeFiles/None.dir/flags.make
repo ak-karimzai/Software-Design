@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/usr/src/gtest -I/usr/src/gtest/include -I/usr/src/gmock -I/usr/src/gmock/include
 
-CXX_FLAGS = 
+CXX_FLAGS = -lpqxx -lpq -std=gnu++20
 

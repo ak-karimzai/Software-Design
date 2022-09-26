@@ -20,6 +20,11 @@ std::vector<Teacher> TeacherController::getAllTeachers()
     return this->teacherRepository->getAllTeachers();
 }
 
+Teacher TeacherController::getTeacherByName(const std::string &teacherName)
+{
+    return this->teacherRepository->getTeacher(teacherName);
+}
+
 void TeacherController::deleteTeacher(const int id)
 {
     this->teacherRepository->deleteTeacher(id);

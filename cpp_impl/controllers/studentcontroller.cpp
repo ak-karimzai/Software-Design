@@ -1,8 +1,9 @@
 #include "studentcontroller.h"
 
+#include <iostream>
+
 StudentController::~StudentController()
 {
-
 }
 
 void StudentController::addStudent(const std::string studentFullName, const std::string studentAdmissionNumber, const int studentGroupId)
@@ -13,6 +14,11 @@ void StudentController::addStudent(const std::string studentFullName, const std:
 Student StudentController::getStudentById(const int id)
 {
     return this->studentRepository->getStudent(id);
+}
+
+Student StudentController::getStudentByName(const std::string &name)
+{
+    return studentRepository->getStudent(name);
 }
 
 int StudentController::getStudentGroup(const int id)
@@ -27,7 +33,7 @@ std::vector<Student> StudentController::getAllStudents()
 
 std::vector<Student> StudentController::getAllStudentsByGroupId(const int id)
 {
-    return this->studentRepository->getAllGroupStudents(id);
+    return this->studentRepository->getGroupAllStudents(id);
 }
 
 void StudentController::changeStudentName(const int id, const std::string newStudentName)
@@ -45,5 +51,7 @@ void StudentController::deleteStudent(const int id)
     this->studentRepository->removeStudent(id);
 }
 
-StudentController::StudentController(StudentRepository *studentRepository) : studentRepository(studentRepository)
-{}
+StudentController::StudentController(StudentRepository *studentRepository)
+{
+    this->studentRepository = studentRepository;
+}

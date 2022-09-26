@@ -25,6 +25,11 @@ void TeacherRepository::renameTeacher(int id, std::string newName)
 
 }
 
+Teacher TeacherRepository::getTeacher(const std::string &teacherName)
+{
+
+}
+
 void TeacherRepository::changeTeacherRegestrationNumber(int id, std::string newRegestrationNumber)
 {
 

@@ -139,12 +139,26 @@ None/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/build
 .PHONY : None/fast
 
+#=============================================================================
+# Target rules for targets named main.exe
+
+# Build rule for target.
+main.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main.exe
+.PHONY : main.exe
+
+# fast build rule for target.
+main.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/build
+.PHONY : main.exe/fast
+
 controllers/groupcontroller.o: controllers/groupcontroller.cpp.o
 .PHONY : controllers/groupcontroller.o
 
 # target to build an object file
 controllers/groupcontroller.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/groupcontroller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/groupcontroller.cpp.o
 .PHONY : controllers/groupcontroller.cpp.o
 
 controllers/groupcontroller.i: controllers/groupcontroller.cpp.i
@@ -153,6 +167,7 @@ controllers/groupcontroller.i: controllers/groupcontroller.cpp.i
 # target to preprocess a source file
 controllers/groupcontroller.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/groupcontroller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/groupcontroller.cpp.i
 .PHONY : controllers/groupcontroller.cpp.i
 
 controllers/groupcontroller.s: controllers/groupcontroller.cpp.s
@@ -161,6 +176,7 @@ controllers/groupcontroller.s: controllers/groupcontroller.cpp.s
 # target to generate assembly for a file
 controllers/groupcontroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/groupcontroller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/groupcontroller.cpp.s
 .PHONY : controllers/groupcontroller.cpp.s
 
 controllers/studentcontroller.o: controllers/studentcontroller.cpp.o
@@ -169,6 +185,7 @@ controllers/studentcontroller.o: controllers/studentcontroller.cpp.o
 # target to build an object file
 controllers/studentcontroller.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/studentcontroller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/studentcontroller.cpp.o
 .PHONY : controllers/studentcontroller.cpp.o
 
 controllers/studentcontroller.i: controllers/studentcontroller.cpp.i
@@ -177,6 +194,7 @@ controllers/studentcontroller.i: controllers/studentcontroller.cpp.i
 # target to preprocess a source file
 controllers/studentcontroller.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/studentcontroller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/studentcontroller.cpp.i
 .PHONY : controllers/studentcontroller.cpp.i
 
 controllers/studentcontroller.s: controllers/studentcontroller.cpp.s
@@ -185,6 +203,7 @@ controllers/studentcontroller.s: controllers/studentcontroller.cpp.s
 # target to generate assembly for a file
 controllers/studentcontroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/studentcontroller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/studentcontroller.cpp.s
 .PHONY : controllers/studentcontroller.cpp.s
 
 controllers/subjectconstroller.o: controllers/subjectconstroller.cpp.o
@@ -193,6 +212,7 @@ controllers/subjectconstroller.o: controllers/subjectconstroller.cpp.o
 # target to build an object file
 controllers/subjectconstroller.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/subjectconstroller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/subjectconstroller.cpp.o
 .PHONY : controllers/subjectconstroller.cpp.o
 
 controllers/subjectconstroller.i: controllers/subjectconstroller.cpp.i
@@ -201,6 +221,7 @@ controllers/subjectconstroller.i: controllers/subjectconstroller.cpp.i
 # target to preprocess a source file
 controllers/subjectconstroller.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/subjectconstroller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/subjectconstroller.cpp.i
 .PHONY : controllers/subjectconstroller.cpp.i
 
 controllers/subjectconstroller.s: controllers/subjectconstroller.cpp.s
@@ -209,6 +230,7 @@ controllers/subjectconstroller.s: controllers/subjectconstroller.cpp.s
 # target to generate assembly for a file
 controllers/subjectconstroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/subjectconstroller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/subjectconstroller.cpp.s
 .PHONY : controllers/subjectconstroller.cpp.s
 
 controllers/teachercontroller.o: controllers/teachercontroller.cpp.o
@@ -217,6 +239,7 @@ controllers/teachercontroller.o: controllers/teachercontroller.cpp.o
 # target to build an object file
 controllers/teachercontroller.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/teachercontroller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/teachercontroller.cpp.o
 .PHONY : controllers/teachercontroller.cpp.o
 
 controllers/teachercontroller.i: controllers/teachercontroller.cpp.i
@@ -225,6 +248,7 @@ controllers/teachercontroller.i: controllers/teachercontroller.cpp.i
 # target to preprocess a source file
 controllers/teachercontroller.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/teachercontroller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/teachercontroller.cpp.i
 .PHONY : controllers/teachercontroller.cpp.i
 
 controllers/teachercontroller.s: controllers/teachercontroller.cpp.s
@@ -233,6 +257,7 @@ controllers/teachercontroller.s: controllers/teachercontroller.cpp.s
 # target to generate assembly for a file
 controllers/teachercontroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/controllers/teachercontroller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/controllers/teachercontroller.cpp.s
 .PHONY : controllers/teachercontroller.cpp.s
 
 entity/group.o: entity/group.cpp.o
@@ -241,6 +266,7 @@ entity/group.o: entity/group.cpp.o
 # target to build an object file
 entity/group.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/group.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/group.cpp.o
 .PHONY : entity/group.cpp.o
 
 entity/group.i: entity/group.cpp.i
@@ -249,6 +275,7 @@ entity/group.i: entity/group.cpp.i
 # target to preprocess a source file
 entity/group.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/group.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/group.cpp.i
 .PHONY : entity/group.cpp.i
 
 entity/group.s: entity/group.cpp.s
@@ -257,6 +284,7 @@ entity/group.s: entity/group.cpp.s
 # target to generate assembly for a file
 entity/group.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/group.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/group.cpp.s
 .PHONY : entity/group.cpp.s
 
 entity/student.o: entity/student.cpp.o
@@ -265,6 +293,7 @@ entity/student.o: entity/student.cpp.o
 # target to build an object file
 entity/student.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/student.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/student.cpp.o
 .PHONY : entity/student.cpp.o
 
 entity/student.i: entity/student.cpp.i
@@ -273,6 +302,7 @@ entity/student.i: entity/student.cpp.i
 # target to preprocess a source file
 entity/student.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/student.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/student.cpp.i
 .PHONY : entity/student.cpp.i
 
 entity/student.s: entity/student.cpp.s
@@ -281,6 +311,7 @@ entity/student.s: entity/student.cpp.s
 # target to generate assembly for a file
 entity/student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/student.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/student.cpp.s
 .PHONY : entity/student.cpp.s
 
 entity/subject.o: entity/subject.cpp.o
@@ -289,6 +320,7 @@ entity/subject.o: entity/subject.cpp.o
 # target to build an object file
 entity/subject.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/subject.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/subject.cpp.o
 .PHONY : entity/subject.cpp.o
 
 entity/subject.i: entity/subject.cpp.i
@@ -297,6 +329,7 @@ entity/subject.i: entity/subject.cpp.i
 # target to preprocess a source file
 entity/subject.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/subject.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/subject.cpp.i
 .PHONY : entity/subject.cpp.i
 
 entity/subject.s: entity/subject.cpp.s
@@ -305,6 +338,7 @@ entity/subject.s: entity/subject.cpp.s
 # target to generate assembly for a file
 entity/subject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/subject.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/subject.cpp.s
 .PHONY : entity/subject.cpp.s
 
 entity/teacher.o: entity/teacher.cpp.o
@@ -313,6 +347,7 @@ entity/teacher.o: entity/teacher.cpp.o
 # target to build an object file
 entity/teacher.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/teacher.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/teacher.cpp.o
 .PHONY : entity/teacher.cpp.o
 
 entity/teacher.i: entity/teacher.cpp.i
@@ -321,6 +356,7 @@ entity/teacher.i: entity/teacher.cpp.i
 # target to preprocess a source file
 entity/teacher.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/teacher.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/teacher.cpp.i
 .PHONY : entity/teacher.cpp.i
 
 entity/teacher.s: entity/teacher.cpp.s
@@ -329,7 +365,59 @@ entity/teacher.s: entity/teacher.cpp.s
 # target to generate assembly for a file
 entity/teacher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/entity/teacher.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/entity/teacher.cpp.s
 .PHONY : entity/teacher.cpp.s
+
+exceptions/exception.o: exceptions/exception.cpp.o
+.PHONY : exceptions/exception.o
+
+# target to build an object file
+exceptions/exception.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/exceptions/exception.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/exceptions/exception.cpp.o
+.PHONY : exceptions/exception.cpp.o
+
+exceptions/exception.i: exceptions/exception.cpp.i
+.PHONY : exceptions/exception.i
+
+# target to preprocess a source file
+exceptions/exception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/exceptions/exception.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/exceptions/exception.cpp.i
+.PHONY : exceptions/exception.cpp.i
+
+exceptions/exception.s: exceptions/exception.cpp.s
+.PHONY : exceptions/exception.s
+
+# target to generate assembly for a file
+exceptions/exception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/exceptions/exception.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/exceptions/exception.cpp.s
+.PHONY : exceptions/exception.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 repositories/grouprepository.o: repositories/grouprepository.cpp.o
 .PHONY : repositories/grouprepository.o
@@ -337,6 +425,7 @@ repositories/grouprepository.o: repositories/grouprepository.cpp.o
 # target to build an object file
 repositories/grouprepository.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/grouprepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o
 .PHONY : repositories/grouprepository.cpp.o
 
 repositories/grouprepository.i: repositories/grouprepository.cpp.i
@@ -345,6 +434,7 @@ repositories/grouprepository.i: repositories/grouprepository.cpp.i
 # target to preprocess a source file
 repositories/grouprepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/grouprepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.i
 .PHONY : repositories/grouprepository.cpp.i
 
 repositories/grouprepository.s: repositories/grouprepository.cpp.s
@@ -353,6 +443,7 @@ repositories/grouprepository.s: repositories/grouprepository.cpp.s
 # target to generate assembly for a file
 repositories/grouprepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/grouprepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.s
 .PHONY : repositories/grouprepository.cpp.s
 
 repositories/studentrepository.o: repositories/studentrepository.cpp.o
@@ -361,6 +452,7 @@ repositories/studentrepository.o: repositories/studentrepository.cpp.o
 # target to build an object file
 repositories/studentrepository.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/studentrepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o
 .PHONY : repositories/studentrepository.cpp.o
 
 repositories/studentrepository.i: repositories/studentrepository.cpp.i
@@ -369,6 +461,7 @@ repositories/studentrepository.i: repositories/studentrepository.cpp.i
 # target to preprocess a source file
 repositories/studentrepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/studentrepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.i
 .PHONY : repositories/studentrepository.cpp.i
 
 repositories/studentrepository.s: repositories/studentrepository.cpp.s
@@ -377,6 +470,7 @@ repositories/studentrepository.s: repositories/studentrepository.cpp.s
 # target to generate assembly for a file
 repositories/studentrepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/studentrepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.s
 .PHONY : repositories/studentrepository.cpp.s
 
 repositories/subjectrepository.o: repositories/subjectrepository.cpp.o
@@ -385,6 +479,7 @@ repositories/subjectrepository.o: repositories/subjectrepository.cpp.o
 # target to build an object file
 repositories/subjectrepository.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/subjectrepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o
 .PHONY : repositories/subjectrepository.cpp.o
 
 repositories/subjectrepository.i: repositories/subjectrepository.cpp.i
@@ -393,6 +488,7 @@ repositories/subjectrepository.i: repositories/subjectrepository.cpp.i
 # target to preprocess a source file
 repositories/subjectrepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/subjectrepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.i
 .PHONY : repositories/subjectrepository.cpp.i
 
 repositories/subjectrepository.s: repositories/subjectrepository.cpp.s
@@ -401,6 +497,7 @@ repositories/subjectrepository.s: repositories/subjectrepository.cpp.s
 # target to generate assembly for a file
 repositories/subjectrepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/subjectrepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.s
 .PHONY : repositories/subjectrepository.cpp.s
 
 repositories/teacherrepository.o: repositories/teacherrepository.cpp.o
@@ -409,6 +506,7 @@ repositories/teacherrepository.o: repositories/teacherrepository.cpp.o
 # target to build an object file
 repositories/teacherrepository.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/teacherrepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o
 .PHONY : repositories/teacherrepository.cpp.o
 
 repositories/teacherrepository.i: repositories/teacherrepository.cpp.i
@@ -417,6 +515,7 @@ repositories/teacherrepository.i: repositories/teacherrepository.cpp.i
 # target to preprocess a source file
 repositories/teacherrepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/teacherrepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.i
 .PHONY : repositories/teacherrepository.cpp.i
 
 repositories/teacherrepository.s: repositories/teacherrepository.cpp.s
@@ -425,6 +524,7 @@ repositories/teacherrepository.s: repositories/teacherrepository.cpp.s
 # target to generate assembly for a file
 repositories/teacherrepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repositories/teacherrepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.s
 .PHONY : repositories/teacherrepository.cpp.s
 
 repository_impl/grouprepositoryimplpg.o: repository_impl/grouprepositoryimplpg.cpp.o
@@ -433,6 +533,7 @@ repository_impl/grouprepositoryimplpg.o: repository_impl/grouprepositoryimplpg.c
 # target to build an object file
 repository_impl/grouprepositoryimplpg.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o
 .PHONY : repository_impl/grouprepositoryimplpg.cpp.o
 
 repository_impl/grouprepositoryimplpg.i: repository_impl/grouprepositoryimplpg.cpp.i
@@ -441,6 +542,7 @@ repository_impl/grouprepositoryimplpg.i: repository_impl/grouprepositoryimplpg.c
 # target to preprocess a source file
 repository_impl/grouprepositoryimplpg.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.i
 .PHONY : repository_impl/grouprepositoryimplpg.cpp.i
 
 repository_impl/grouprepositoryimplpg.s: repository_impl/grouprepositoryimplpg.cpp.s
@@ -449,7 +551,35 @@ repository_impl/grouprepositoryimplpg.s: repository_impl/grouprepositoryimplpg.c
 # target to generate assembly for a file
 repository_impl/grouprepositoryimplpg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/grouprepositoryimplpg.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.s
 .PHONY : repository_impl/grouprepositoryimplpg.cpp.s
+
+repository_impl/querygenerators.o: repository_impl/querygenerators.cpp.o
+.PHONY : repository_impl/querygenerators.o
+
+# target to build an object file
+repository_impl/querygenerators.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/querygenerators.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o
+.PHONY : repository_impl/querygenerators.cpp.o
+
+repository_impl/querygenerators.i: repository_impl/querygenerators.cpp.i
+.PHONY : repository_impl/querygenerators.i
+
+# target to preprocess a source file
+repository_impl/querygenerators.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/querygenerators.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.i
+.PHONY : repository_impl/querygenerators.cpp.i
+
+repository_impl/querygenerators.s: repository_impl/querygenerators.cpp.s
+.PHONY : repository_impl/querygenerators.s
+
+# target to generate assembly for a file
+repository_impl/querygenerators.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/querygenerators.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.s
+.PHONY : repository_impl/querygenerators.cpp.s
 
 repository_impl/studentrepositoryimplpg.o: repository_impl/studentrepositoryimplpg.cpp.o
 .PHONY : repository_impl/studentrepositoryimplpg.o
@@ -457,6 +587,7 @@ repository_impl/studentrepositoryimplpg.o: repository_impl/studentrepositoryimpl
 # target to build an object file
 repository_impl/studentrepositoryimplpg.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o
 .PHONY : repository_impl/studentrepositoryimplpg.cpp.o
 
 repository_impl/studentrepositoryimplpg.i: repository_impl/studentrepositoryimplpg.cpp.i
@@ -465,6 +596,7 @@ repository_impl/studentrepositoryimplpg.i: repository_impl/studentrepositoryimpl
 # target to preprocess a source file
 repository_impl/studentrepositoryimplpg.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.i
 .PHONY : repository_impl/studentrepositoryimplpg.cpp.i
 
 repository_impl/studentrepositoryimplpg.s: repository_impl/studentrepositoryimplpg.cpp.s
@@ -473,6 +605,7 @@ repository_impl/studentrepositoryimplpg.s: repository_impl/studentrepositoryimpl
 # target to generate assembly for a file
 repository_impl/studentrepositoryimplpg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/studentrepositoryimplpg.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.s
 .PHONY : repository_impl/studentrepositoryimplpg.cpp.s
 
 repository_impl/subjectrepositoryimplpg.o: repository_impl/subjectrepositoryimplpg.cpp.o
@@ -481,6 +614,7 @@ repository_impl/subjectrepositoryimplpg.o: repository_impl/subjectrepositoryimpl
 # target to build an object file
 repository_impl/subjectrepositoryimplpg.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o
 .PHONY : repository_impl/subjectrepositoryimplpg.cpp.o
 
 repository_impl/subjectrepositoryimplpg.i: repository_impl/subjectrepositoryimplpg.cpp.i
@@ -489,6 +623,7 @@ repository_impl/subjectrepositoryimplpg.i: repository_impl/subjectrepositoryimpl
 # target to preprocess a source file
 repository_impl/subjectrepositoryimplpg.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.i
 .PHONY : repository_impl/subjectrepositoryimplpg.cpp.i
 
 repository_impl/subjectrepositoryimplpg.s: repository_impl/subjectrepositoryimplpg.cpp.s
@@ -497,6 +632,7 @@ repository_impl/subjectrepositoryimplpg.s: repository_impl/subjectrepositoryimpl
 # target to generate assembly for a file
 repository_impl/subjectrepositoryimplpg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/subjectrepositoryimplpg.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.s
 .PHONY : repository_impl/subjectrepositoryimplpg.cpp.s
 
 repository_impl/teacherrepositoryimplpg.o: repository_impl/teacherrepositoryimplpg.cpp.o
@@ -505,6 +641,7 @@ repository_impl/teacherrepositoryimplpg.o: repository_impl/teacherrepositoryimpl
 # target to build an object file
 repository_impl/teacherrepositoryimplpg.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o
 .PHONY : repository_impl/teacherrepositoryimplpg.cpp.o
 
 repository_impl/teacherrepositoryimplpg.i: repository_impl/teacherrepositoryimplpg.cpp.i
@@ -513,6 +650,7 @@ repository_impl/teacherrepositoryimplpg.i: repository_impl/teacherrepositoryimpl
 # target to preprocess a source file
 repository_impl/teacherrepositoryimplpg.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.i
 .PHONY : repository_impl/teacherrepositoryimplpg.cpp.i
 
 repository_impl/teacherrepositoryimplpg.s: repository_impl/teacherrepositoryimplpg.cpp.s
@@ -521,7 +659,32 @@ repository_impl/teacherrepositoryimplpg.s: repository_impl/teacherrepositoryimpl
 # target to generate assembly for a file
 repository_impl/teacherrepositoryimplpg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/repository_impl/teacherrepositoryimplpg.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.exe.dir/build.make CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.s
 .PHONY : repository_impl/teacherrepositoryimplpg.cpp.s
+
+testrepository/pg_tests.o: testrepository/pg_tests.cpp.o
+.PHONY : testrepository/pg_tests.o
+
+# target to build an object file
+testrepository/pg_tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/testrepository/pg_tests.cpp.o
+.PHONY : testrepository/pg_tests.cpp.o
+
+testrepository/pg_tests.i: testrepository/pg_tests.cpp.i
+.PHONY : testrepository/pg_tests.i
+
+# target to preprocess a source file
+testrepository/pg_tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/testrepository/pg_tests.cpp.i
+.PHONY : testrepository/pg_tests.cpp.i
+
+testrepository/pg_tests.s: testrepository/pg_tests.cpp.s
+.PHONY : testrepository/pg_tests.s
+
+# target to generate assembly for a file
+testrepository/pg_tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/None.dir/build.make CMakeFiles/None.dir/testrepository/pg_tests.cpp.s
+.PHONY : testrepository/pg_tests.cpp.s
 
 testrepository/run_tests.o: testrepository/run_tests.cpp.o
 .PHONY : testrepository/run_tests.o
@@ -725,6 +888,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... None"
+	@echo "... main.exe"
 	@echo "... controllers/groupcontroller.o"
 	@echo "... controllers/groupcontroller.i"
 	@echo "... controllers/groupcontroller.s"
@@ -749,6 +913,12 @@ help:
 	@echo "... entity/teacher.o"
 	@echo "... entity/teacher.i"
 	@echo "... entity/teacher.s"
+	@echo "... exceptions/exception.o"
+	@echo "... exceptions/exception.i"
+	@echo "... exceptions/exception.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... repositories/grouprepository.o"
 	@echo "... repositories/grouprepository.i"
 	@echo "... repositories/grouprepository.s"
@@ -764,6 +934,9 @@ help:
 	@echo "... repository_impl/grouprepositoryimplpg.o"
 	@echo "... repository_impl/grouprepositoryimplpg.i"
 	@echo "... repository_impl/grouprepositoryimplpg.s"
+	@echo "... repository_impl/querygenerators.o"
+	@echo "... repository_impl/querygenerators.i"
+	@echo "... repository_impl/querygenerators.s"
 	@echo "... repository_impl/studentrepositoryimplpg.o"
 	@echo "... repository_impl/studentrepositoryimplpg.i"
 	@echo "... repository_impl/studentrepositoryimplpg.s"
@@ -773,6 +946,9 @@ help:
 	@echo "... repository_impl/teacherrepositoryimplpg.o"
 	@echo "... repository_impl/teacherrepositoryimplpg.i"
 	@echo "... repository_impl/teacherrepositoryimplpg.s"
+	@echo "... testrepository/pg_tests.o"
+	@echo "... testrepository/pg_tests.i"
+	@echo "... testrepository/pg_tests.s"
 	@echo "... testrepository/run_tests.o"
 	@echo "... testrepository/run_tests.i"
 	@echo "... testrepository/run_tests.s"

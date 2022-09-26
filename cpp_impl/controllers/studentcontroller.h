@@ -17,6 +17,7 @@ public:
                     const int studentGroupId);
 
     Student getStudentById(const int id);
+    Student getStudentByName(const std::string & name);
     int getStudentGroup(const int id);
     std::vector<Student> getAllStudents();
     std::vector<Student> getAllStudentsByGroupId(const int id);

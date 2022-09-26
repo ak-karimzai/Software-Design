@@ -16,6 +16,7 @@ public:
                                const std::string teacherRegestrationNumber);
     virtual void deleteTeacher(const int id);
     virtual void renameTeacher(int id, std::string newName);
+    virtual Teacher getTeacher(const std::string & teacherName);
     virtual void changeTeacherRegestrationNumber(int id, std::string newRegestrationNumber);
     virtual std::vector<Teacher> getAllTeachers();
 };
