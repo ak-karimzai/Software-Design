@@ -1,0 +1,1 @@
+/usr/bin/c++ -lpqxx -lpq -lmysqlcppconn CMakeFiles/StaticTest.dir/main.cpp.o -o StaticTest   -L/home/khalid/qtcreator_projs/untitled2/libs  -Wl,-rpath,/home/khalid/qtcreator_projs/untitled2/libs libBussniesLogic.a -lpqxx -lpq -lmysqlcppconn 
