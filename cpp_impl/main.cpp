@@ -4,6 +4,12 @@
 #include "repository_impl/grouprepositoryimplpg.h"
 #include "repository_impl/authrepositoryimplpg.h"
 
+#include "repository_impl/studentrepositoryimplmysql.h"
+#include "repository_impl/subjectrepositoryimplmysql.h"
+#include "repository_impl/teacherrepositoryimplmysql.h"
+#include "repository_impl/grouprepositoryimplmysql.h"
+#include "repository_impl/authrepositoryimplmysql.h"
+
 #include "controllers/studentcontroller.h"
 #include "controllers/subjectconstroller.h"
 #include "controllers/groupcontroller.h"
@@ -12,19 +18,59 @@
 #include "tui/facades/studentfacade.h"
 #include "tui/authdisplay.h"
 
-const std::string conn = std::string("dbname = school ") +
-                         std::string("user = khalid ") +
-                         std::string("password = 1234abcd ") +
-                         std::string("hostaddr = 127.0.0.1 ") +
-                         std::string("port = 5432");
+#include "config/config.h"
+
+//const std::string conn = std::string("dbname = school ") +
+//                         std::string("user = khalid ") +
+//                         std::string("password = 1234abcd ") +
+//                         std::string("hostaddr = 127.0.0.1 ") +
+//                         std::string("port = 5432");
+
+#include <iostream>
 
 int main(int argc, char* argv[])
 {
-    std::shared_ptr<StudentRepository> studentRepository(new StudentRepositoryImplPg(conn));
-    std::shared_ptr<SubjectRepository> subjectRepository(new SubjectRepositoryImplPg(conn));
-    std::shared_ptr<GroupRepository> groupRepository(new GroupRepositoryImplPg(conn));
-    std::shared_ptr<TeacherRepository> teacherRepository(new TeacherRepositoryImplPg(conn));
-    std::shared_ptr<AuthRepository> authRepositry(new AuthRepositoryImplPg(conn));
+
+    std::shared_ptr<StudentRepository> studentRepository;
+    std::shared_ptr<SubjectRepository> subjectRepository;
+    std::shared_ptr<GroupRepository> groupRepository;
+    std::shared_ptr<TeacherRepository> teacherRepository;
+    std::shared_ptr<AuthRepository> authRepositry;
+
+    if (argc != 2) {
+        std::cout << "usage: app.exe [DBMS NAME]" << std::endl;
+        return -1;
+    }
+
+    if (std::strcmp(argv[1], "psql") == 0) {
+        std::string conn = getPGConfig();
+        std::cout << conn << std::endl;
+        studentRepository = std::shared_ptr<StudentRepository>(new StudentRepositoryImplPg(conn));
+        subjectRepository = std::shared_ptr<SubjectRepository>(new SubjectRepositoryImplPg(conn));
+        groupRepository = std::shared_ptr<GroupRepository>(new GroupRepositoryImplPg(conn));
+        teacherRepository = std::shared_ptr<TeacherRepository>(new TeacherRepositoryImplPg(conn));
+        authRepositry = std::shared_ptr<AuthRepository>(new AuthRepositoryImplPg(conn));
+    } else if (std::strcmp(argv[1], "mysql") == 0) {
+        auto mySqlCofig = getMySqlConfig();
+        studentRepository = std::shared_ptr<StudentRepository>(new StudentRepositoryImplMySql(mySqlCofig.getUrl(),
+                                                                                              mySqlCofig.getUser(),
+                                                                                              mySqlCofig.getPassword()));
+        subjectRepository = std::shared_ptr<SubjectRepository>(new SubjectRepositoryImplMySql(mySqlCofig.getUrl(),
+                                                                                              mySqlCofig.getUser(),
+                                                                                              mySqlCofig.getPassword()));
+        groupRepository = std::shared_ptr<GroupRepository>(new GroupRepositoryImplMySql(mySqlCofig.getUrl(),
+                                                                                        mySqlCofig.getUser(),
+                                                                                        mySqlCofig.getPassword()));
+        teacherRepository = std::shared_ptr<TeacherRepository>(new TeacherRepositoryImplMySql(mySqlCofig.getUrl(),
+                                                                                              mySqlCofig.getUser(),
+                                                                                              mySqlCofig.getPassword()));
+        authRepositry = std::shared_ptr<AuthRepository>(new AuthRepositoryImplMySql(mySqlCofig.getUrl(),
+                                                                                    mySqlCofig.getUser(),
+                                                                                    mySqlCofig.getPassword()));
+    } else {
+        std::cout << "usage: app.exe [DBMS NAME]" << std::endl;
+        return -1;
+    }
 
     StudentController studentController(studentRepository.get());
     SubjectController subjectController(subjectRepository.get());

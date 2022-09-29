@@ -29,3 +29,6 @@ DateDeleteException::DateDeleteException(const std::string &fileName, const std:
 
 DataSourceAccessException::DataSourceAccessException(const std::string &fileName, const std::string &className, int currentLine) : Exception(fileName, className, currentLine)
 {}
+
+ConfigFileException::ConfigFileException(const std::string &fileName, const std::string &className, int currentLine) : Exception(fileName, className, currentLine)
+{}

@@ -334,27 +334,7 @@ CMakeFiles/None.dir/testrepository/pg_tests.cpp.o: \
  /usr/include/pqxx/subtransaction /usr/include/pqxx/subtransaction.hxx \
  /usr/include/pqxx/transaction /usr/include/pqxx/transaction.hxx \
  /usr/include/pqxx/transactor /usr/include/pqxx/transactor.hxx \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/studentcontroller.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/studentrepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/teacherrepositoryimplpg.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/teacherrepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/teacher.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/teachercontroller.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/teacherrepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/grouprepositoryimplpg.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/grouprepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/group.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/groupcontroller.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/grouprepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/subjectrepositoryimplpg.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/subjectrepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/subject.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/subjectconstroller.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/subjectrepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/authrepositoryimplpg.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/authrepository.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/auth.h \
- /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/authrepositoryimplmysql.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/studentrepositoryimplmysql.h \
  /usr/include/mysql_connection.h /usr/include/cppconn/connection.h \
  /usr/include/cppconn/build_config.h /usr/include/cppconn/warning.h \
  /usr/include/cppconn/sqlstring.h /usr/include/c++/11/algorithm \
@@ -415,6 +395,30 @@ CMakeFiles/None.dir/testrepository/pg_tests.cpp.o: \
  /usr/include/cppconn/resultset_metadata.h \
  /usr/include/cppconn/datatype.h /usr/include/cppconn/statement.h \
  /usr/include/cppconn/resultset.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/studentcontroller.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/studentrepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/teacherrepositoryimplpg.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/teacherrepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/teacher.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/teacherrepositoryimplmysql.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/teachercontroller.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/teacherrepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/grouprepositoryimplpg.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/grouprepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/group.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/grouprepositoryimplmysql.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/groupcontroller.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/grouprepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/subjectrepositoryimplpg.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/subjectrepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/subject.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/subjectrepositoryimplmysql.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/subjectconstroller.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/subjectrepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/authrepositoryimplpg.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/authrepository.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../repositories/../entity/auth.h \
+ /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/authrepositoryimplmysql.h \
  /home/khalid/qtcreator_projs/untitled2/testrepository/../repository_impl/../exceptions/exception.h \
  /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/authcontroller.h \
  /home/khalid/qtcreator_projs/untitled2/testrepository/../controllers/../repositories/authrepository.h

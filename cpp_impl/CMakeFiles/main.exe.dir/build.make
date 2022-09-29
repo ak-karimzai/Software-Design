@@ -237,10 +237,66 @@ CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplmysql.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplmysql.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repository_impl/authrepositoryimplmysql.cpp -o CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplmysql.cpp.s
 
+CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/flags.make
+CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o: repository_impl/grouprepositoryimplmysql.cpp
+CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/grouprepositoryimplmysql.cpp
+
+CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/repository_impl/grouprepositoryimplmysql.cpp > CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.i
+
+CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repository_impl/grouprepositoryimplmysql.cpp -o CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.s
+
+CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/flags.make
+CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o: repository_impl/studentrepositoryimplmysql.cpp
+CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/studentrepositoryimplmysql.cpp
+
+CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/repository_impl/studentrepositoryimplmysql.cpp > CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.i
+
+CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repository_impl/studentrepositoryimplmysql.cpp -o CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.s
+
+CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/flags.make
+CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o: repository_impl/subjectrepositoryimplmysql.cpp
+CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/subjectrepositoryimplmysql.cpp
+
+CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/repository_impl/subjectrepositoryimplmysql.cpp > CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.i
+
+CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repository_impl/subjectrepositoryimplmysql.cpp -o CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.s
+
+CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/flags.make
+CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o: repository_impl/teacherrepositoryimplmysql.cpp
+CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplmysql.cpp
+
+CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplmysql.cpp > CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.i
+
+CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplmysql.cpp -o CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.s
+
 CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o: repository_impl/grouprepositoryimplpg.cpp
 CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/grouprepositoryimplpg.cpp
 
 CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.i: cmake_force
@@ -254,7 +310,7 @@ CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o: repository_impl/studentrepositoryimplpg.cpp
 CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/studentrepositoryimplpg.cpp
 
 CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.i: cmake_force
@@ -268,7 +324,7 @@ CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.s: cmake_for
 CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o: repository_impl/subjectrepositoryimplpg.cpp
 CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/subjectrepositoryimplpg.cpp
 
 CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.i: cmake_force
@@ -282,7 +338,7 @@ CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.s: cmake_for
 CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o: repository_impl/teacherrepositoryimplpg.cpp
 CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplpg.cpp
 
 CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.i: cmake_force
@@ -296,7 +352,7 @@ CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.s: cmake_for
 CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o: repository_impl/authrepositoryimplpg.cpp
 CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/authrepositoryimplpg.cpp
 
 CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.i: cmake_force
@@ -310,7 +366,7 @@ CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o: repository_impl/querygenerators.cpp
 CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o -MF CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o.d -o CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repository_impl/querygenerators.cpp
 
 CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.i: cmake_force
@@ -324,7 +380,7 @@ CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o: repositories/grouprepository.cpp
 CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o -MF CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o.d -o CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/grouprepository.cpp
 
 CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.i: cmake_force
@@ -338,7 +394,7 @@ CMakeFiles/main.exe.dir/repositories/grouprepository.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o: repositories/studentrepository.cpp
 CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o -MF CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o.d -o CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/studentrepository.cpp
 
 CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.i: cmake_force
@@ -352,7 +408,7 @@ CMakeFiles/main.exe.dir/repositories/studentrepository.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o: repositories/subjectrepository.cpp
 CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o -MF CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o.d -o CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/subjectrepository.cpp
 
 CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.i: cmake_force
@@ -366,7 +422,7 @@ CMakeFiles/main.exe.dir/repositories/subjectrepository.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o: repositories/teacherrepository.cpp
 CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o -MF CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o.d -o CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/teacherrepository.cpp
 
 CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.i: cmake_force
@@ -380,7 +436,7 @@ CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o: repositories/authrepository.cpp
 CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o -MF CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o.d -o CMakeFiles/main.exe.dir/repositories/authrepository.cpp.o -c /home/khalid/qtcreator_projs/untitled2/repositories/authrepository.cpp
 
 CMakeFiles/main.exe.dir/repositories/authrepository.cpp.i: cmake_force
@@ -394,7 +450,7 @@ CMakeFiles/main.exe.dir/repositories/authrepository.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/exceptions/exception.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/exceptions/exception.cpp.o: exceptions/exception.cpp
 CMakeFiles/main.exe.dir/exceptions/exception.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/main.exe.dir/exceptions/exception.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.exe.dir/exceptions/exception.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/exceptions/exception.cpp.o -MF CMakeFiles/main.exe.dir/exceptions/exception.cpp.o.d -o CMakeFiles/main.exe.dir/exceptions/exception.cpp.o -c /home/khalid/qtcreator_projs/untitled2/exceptions/exception.cpp
 
 CMakeFiles/main.exe.dir/exceptions/exception.cpp.i: cmake_force
@@ -408,7 +464,7 @@ CMakeFiles/main.exe.dir/exceptions/exception.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o: tui/facades/authfacade.cpp
 CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o -MF CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o.d -o CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o -c /home/khalid/qtcreator_projs/untitled2/tui/facades/authfacade.cpp
 
 CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.i: cmake_force
@@ -422,7 +478,7 @@ CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o: tui/facades/teacherfacade.cpp
 CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o -MF CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o.d -o CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o -c /home/khalid/qtcreator_projs/untitled2/tui/facades/teacherfacade.cpp
 
 CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.i: cmake_force
@@ -436,7 +492,7 @@ CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o: tui/facades/studentfacade.cpp
 CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o -MF CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o.d -o CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o -c /home/khalid/qtcreator_projs/untitled2/tui/facades/studentfacade.cpp
 
 CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.i: cmake_force
@@ -447,10 +503,24 @@ CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/tui/facades/studentfacade.cpp -o CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.s
 
+CMakeFiles/main.exe.dir/config/config.cpp.o: CMakeFiles/main.exe.dir/flags.make
+CMakeFiles/main.exe.dir/config/config.cpp.o: config/config.cpp
+CMakeFiles/main.exe.dir/config/config.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.exe.dir/config/config.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/config/config.cpp.o -MF CMakeFiles/main.exe.dir/config/config.cpp.o.d -o CMakeFiles/main.exe.dir/config/config.cpp.o -c /home/khalid/qtcreator_projs/untitled2/config/config.cpp
+
+CMakeFiles/main.exe.dir/config/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.exe.dir/config/config.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khalid/qtcreator_projs/untitled2/config/config.cpp > CMakeFiles/main.exe.dir/config/config.cpp.i
+
+CMakeFiles/main.exe.dir/config/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.exe.dir/config/config.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khalid/qtcreator_projs/untitled2/config/config.cpp -o CMakeFiles/main.exe.dir/config/config.cpp.s
+
 CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o: tui/authdisplay.cpp
 CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o -MF CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o.d -o CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o -c /home/khalid/qtcreator_projs/untitled2/tui/authdisplay.cpp
 
 CMakeFiles/main.exe.dir/tui/authdisplay.cpp.i: cmake_force
@@ -464,7 +534,7 @@ CMakeFiles/main.exe.dir/tui/authdisplay.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o: tui/studentdisplay.cpp
 CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o -MF CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o.d -o CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o -c /home/khalid/qtcreator_projs/untitled2/tui/studentdisplay.cpp
 
 CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.i: cmake_force
@@ -478,7 +548,7 @@ CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o: tui/teacherdisplay.cpp
 CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o -MF CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o.d -o CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o -c /home/khalid/qtcreator_projs/untitled2/tui/teacherdisplay.cpp
 
 CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.i: cmake_force
@@ -492,7 +562,7 @@ CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.s: cmake_force
 CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o: CMakeFiles/main.exe.dir/flags.make
 CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o: tui/admindisplay.cpp
 CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o: CMakeFiles/main.exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o -MF CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o.d -o CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o -c /home/khalid/qtcreator_projs/untitled2/tui/admindisplay.cpp
 
 CMakeFiles/main.exe.dir/tui/admindisplay.cpp.i: cmake_force
@@ -517,6 +587,10 @@ main_exe_OBJECTS = \
 "CMakeFiles/main.exe.dir/entity/teacher.cpp.o" \
 "CMakeFiles/main.exe.dir/entity/auth.cpp.o" \
 "CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplmysql.cpp.o" \
+"CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o" \
+"CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o" \
+"CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o" \
+"CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o" \
 "CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o" \
 "CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o" \
 "CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o" \
@@ -532,6 +606,7 @@ main_exe_OBJECTS = \
 "CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o" \
 "CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o" \
 "CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o" \
+"CMakeFiles/main.exe.dir/config/config.cpp.o" \
 "CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o" \
 "CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o" \
 "CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o" \
@@ -552,6 +627,10 @@ main.exe: CMakeFiles/main.exe.dir/entity/subject.cpp.o
 main.exe: CMakeFiles/main.exe.dir/entity/teacher.cpp.o
 main.exe: CMakeFiles/main.exe.dir/entity/auth.cpp.o
 main.exe: CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplmysql.cpp.o
+main.exe: CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o
+main.exe: CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o
+main.exe: CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o
+main.exe: CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o
 main.exe: CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o
 main.exe: CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o
 main.exe: CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o
@@ -567,13 +646,14 @@ main.exe: CMakeFiles/main.exe.dir/exceptions/exception.cpp.o
 main.exe: CMakeFiles/main.exe.dir/tui/facades/authfacade.cpp.o
 main.exe: CMakeFiles/main.exe.dir/tui/facades/teacherfacade.cpp.o
 main.exe: CMakeFiles/main.exe.dir/tui/facades/studentfacade.cpp.o
+main.exe: CMakeFiles/main.exe.dir/config/config.cpp.o
 main.exe: CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o
 main.exe: CMakeFiles/main.exe.dir/tui/studentdisplay.cpp.o
 main.exe: CMakeFiles/main.exe.dir/tui/teacherdisplay.cpp.o
 main.exe: CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o
 main.exe: CMakeFiles/main.exe.dir/build.make
 main.exe: CMakeFiles/main.exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khalid/qtcreator_projs/untitled2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -58,6 +58,8 @@ set(MAIN_APP_SRC
     tui/facades/teacherfacade.cpp
     tui/facades/studentfacade.cpp
 
+    config/config.cpp
+
     tui/authdisplay.cpp
     tui/studentdisplay.cpp
     tui/teacherdisplay.cpp
@@ -68,6 +70,8 @@ set(MAIN_APP_HEADERS
     tui/facades/authfacade.h
     tui/facades/teacherfacade.h
     tui/facades/studentfacade.h
+
+    config/config.h
 
     tui/authdisplay.h
     tui/teacherdisplay.h

@@ -40,4 +40,11 @@ public:
 
 };
 
+class ConfigFileException : public Exception
+{
+public:
+    ConfigFileException(const std::string &fileName, const std::string &className, int currentLine);
+
+};
+
 #endif // EXCEPTION_H

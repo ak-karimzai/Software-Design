@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/khalid/qtcreator_projs/untitled2/config/config.cpp" "CMakeFiles/main.exe.dir/config/config.cpp.o" "gcc" "CMakeFiles/main.exe.dir/config/config.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/controllers/authcontroller.cpp" "CMakeFiles/main.exe.dir/controllers/authcontroller.cpp.o" "gcc" "CMakeFiles/main.exe.dir/controllers/authcontroller.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/controllers/groupcontroller.cpp" "CMakeFiles/main.exe.dir/controllers/groupcontroller.cpp.o" "gcc" "CMakeFiles/main.exe.dir/controllers/groupcontroller.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/controllers/studentcontroller.cpp" "CMakeFiles/main.exe.dir/controllers/studentcontroller.cpp.o" "gcc" "CMakeFiles/main.exe.dir/controllers/studentcontroller.cpp.o.d"
@@ -27,10 +28,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/khalid/qtcreator_projs/untitled2/repositories/teacherrepository.cpp" "CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repositories/teacherrepository.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/repository_impl/authrepositoryimplmysql.cpp" "CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplmysql.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplmysql.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/repository_impl/authrepositoryimplpg.cpp" "CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/authrepositoryimplpg.cpp.o.d"
+  "/home/khalid/qtcreator_projs/untitled2/repository_impl/grouprepositoryimplmysql.cpp" "CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplmysql.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/repository_impl/grouprepositoryimplpg.cpp" "CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/grouprepositoryimplpg.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/repository_impl/querygenerators.cpp" "CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/querygenerators.cpp.o.d"
+  "/home/khalid/qtcreator_projs/untitled2/repository_impl/studentrepositoryimplmysql.cpp" "CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplmysql.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/repository_impl/studentrepositoryimplpg.cpp" "CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/studentrepositoryimplpg.cpp.o.d"
+  "/home/khalid/qtcreator_projs/untitled2/repository_impl/subjectrepositoryimplmysql.cpp" "CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplmysql.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/repository_impl/subjectrepositoryimplpg.cpp" "CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/subjectrepositoryimplpg.cpp.o.d"
+  "/home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplmysql.cpp" "CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplmysql.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/repository_impl/teacherrepositoryimplpg.cpp" "CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o" "gcc" "CMakeFiles/main.exe.dir/repository_impl/teacherrepositoryimplpg.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/tui/admindisplay.cpp" "CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o" "gcc" "CMakeFiles/main.exe.dir/tui/admindisplay.cpp.o.d"
   "/home/khalid/qtcreator_projs/untitled2/tui/authdisplay.cpp" "CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o" "gcc" "CMakeFiles/main.exe.dir/tui/authdisplay.cpp.o.d"
