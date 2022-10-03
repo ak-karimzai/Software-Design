@@ -1,0 +1,4 @@
+/home/khalid/qtcreator_projs/untitled6/CMakeFiles/untitled6.dir
+/home/khalid/qtcreator_projs/untitled6/CMakeFiles/edit_cache.dir
+/home/khalid/qtcreator_projs/untitled6/CMakeFiles/rebuild_cache.dir
+/home/khalid/qtcreator_projs/untitled6/CMakeFiles/untitled6_autogen.dir
