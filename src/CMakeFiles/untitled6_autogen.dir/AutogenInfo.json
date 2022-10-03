@@ -1,0 +1,459 @@
+{
+	"BUILD_DIR" : "/home/khalid/qtcreator_projs/untitled6/untitled6_autogen",
+	"CMAKE_BINARY_DIR" : "/home/khalid/qtcreator_projs/untitled6",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/khalid/qtcreator_projs/untitled6",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/khalid/qtcreator_projs/untitled6",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/khalid/qtcreator_projs/untitled6/CMakeLists.txt",
+		"/home/khalid/qtcreator_projs/untitled6/CMakeFiles/3.22.1/CMakeSystem.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/khalid/qtcreator_projs/untitled6/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/khalid/qtcreator_projs/untitled6",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/authcontroller.h",
+			"MU",
+			"7CL2LH2DRO/moc_authcontroller.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/groupcontroller.h",
+			"MU",
+			"7CL2LH2DRO/moc_groupcontroller.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/studentcontroller.h",
+			"MU",
+			"7CL2LH2DRO/moc_studentcontroller.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/subjectconstroller.h",
+			"MU",
+			"7CL2LH2DRO/moc_subjectconstroller.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/teachercontroller.h",
+			"MU",
+			"7CL2LH2DRO/moc_teachercontroller.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/auth.h",
+			"MU",
+			"LHIOWBJX66/moc_auth.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/group.h",
+			"MU",
+			"LHIOWBJX66/moc_group.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/student.h",
+			"MU",
+			"LHIOWBJX66/moc_student.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/subject.h",
+			"MU",
+			"LHIOWBJX66/moc_subject.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/teacher.h",
+			"MU",
+			"LHIOWBJX66/moc_teacher.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/exceptions/exception.h",
+			"MU",
+			"RHBJBCZP5P/moc_exception.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/inputdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_inputdialog.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/logger/logger.h",
+			"MU",
+			"6AY3GXVTTD/moc_logger.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/authrepository.h",
+			"MU",
+			"JFP7P4YVTO/moc_authrepository.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/grouprepository.h",
+			"MU",
+			"JFP7P4YVTO/moc_grouprepository.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/studentrepository.h",
+			"MU",
+			"JFP7P4YVTO/moc_studentrepository.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/subjectrepository.h",
+			"MU",
+			"JFP7P4YVTO/moc_subjectrepository.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/teacherrepository.h",
+			"MU",
+			"JFP7P4YVTO/moc_teacherrepository.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/authrepositoryimplmysql.h",
+			"MU",
+			"HEDU75L6DE/moc_authrepositoryimplmysql.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/authrepositoryimplpg.h",
+			"MU",
+			"HEDU75L6DE/moc_authrepositoryimplpg.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/grouprepositoryimplmysql.h",
+			"MU",
+			"HEDU75L6DE/moc_grouprepositoryimplmysql.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/grouprepositoryimplpg.h",
+			"MU",
+			"HEDU75L6DE/moc_grouprepositoryimplpg.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/querygenerators.h",
+			"MU",
+			"HEDU75L6DE/moc_querygenerators.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/studentrepositoryimplmysql.h",
+			"MU",
+			"HEDU75L6DE/moc_studentrepositoryimplmysql.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/studentrepositoryimplpg.h",
+			"MU",
+			"HEDU75L6DE/moc_studentrepositoryimplpg.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/subjectrepositoryimplmysql.h",
+			"MU",
+			"HEDU75L6DE/moc_subjectrepositoryimplmysql.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/subjectrepositoryimplpg.h",
+			"MU",
+			"HEDU75L6DE/moc_subjectrepositoryimplpg.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/teacherrepositoryimplmysql.h",
+			"MU",
+			"HEDU75L6DE/moc_teacherrepositoryimplmysql.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/teacherrepositoryimplpg.h",
+			"MU",
+			"HEDU75L6DE/moc_teacherrepositoryimplpg.cpp",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/studentdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_studentdialog.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/khalid/qtcreator_projs/untitled6/untitled6_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/khalid/qtcreator_projs/untitled6/untitled6_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/khalid/qtcreator_projs/untitled6",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/khalid/qtcreator_projs/untitled6/untitled6_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/khalid/qtcreator_projs/untitled6/CMakeFiles/untitled6_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/khalid/qtcreator_projs/untitled6/CMakeFiles/untitled6_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/authcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/groupcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/studentcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/subjectconstroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/controllers/teachercontroller.cpp",
+			"MU",
+			null
+		],
+		[ "/home/khalid/qtcreator_projs/untitled6/entity/auth.cpp", "MU", null ],
+		[ "/home/khalid/qtcreator_projs/untitled6/entity/group.cpp", "MU", null ],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/student.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/subject.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/entity/teacher.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/exceptions/exception.cpp",
+			"MU",
+			null
+		],
+		[ "/home/khalid/qtcreator_projs/untitled6/inputdialog.cpp", "MU", null ],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/logger/logger.cpp",
+			"MU",
+			null
+		],
+		[ "/home/khalid/qtcreator_projs/untitled6/main.cpp", "MU", null ],
+		[ "/home/khalid/qtcreator_projs/untitled6/mainwindow.cpp", "MU", null ],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/authrepository.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/grouprepository.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/studentrepository.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/subjectrepository.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repositories/teacherrepository.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/authrepositoryimplmysql.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/authrepositoryimplpg.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/grouprepositoryimplmysql.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/grouprepositoryimplpg.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/querygenerators.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/studentrepositoryimplmysql.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/studentrepositoryimplpg.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/subjectrepositoryimplmysql.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/subjectrepositoryimplpg.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/teacherrepositoryimplmysql.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/repository_impl/teacherrepositoryimplpg.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khalid/qtcreator_projs/untitled6/studentdialog.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
